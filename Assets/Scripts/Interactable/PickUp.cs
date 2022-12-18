@@ -8,7 +8,7 @@ public class PickUp : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GM.isBoxPickedUp = true;
+            GM.PickUpBox();
         }
     }
 }
