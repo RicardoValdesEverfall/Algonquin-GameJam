@@ -2,9 +2,9 @@
     <Style src="project://database/Assets/Scripts/MainMenu/button-style.uss?fileID=7433441132597879392&amp;guid=cd5263141b2c51745b82a928651296cf&amp;type=3#button-style" />
     <ui:VisualElement name="Background" style="height: 227px; width: 1149px; flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0);">
         <ui:VisualElement style="height: 320px; width: 336px; background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; justify-content: center;">
-            <ui:Label text="Main Menu" display-tooltip-when-elided="true" style="font-size: 20px; position: absolute; top: 20px;" />
-            <ui:Button text="Start" display-tooltip-when-elided="true" name="start-button" class="button-style" />
-            <ui:Button text="Credits" display-tooltip-when-elided="true" name="credits-button" class="button-style" />
+            <ui:Label text="Game Over" display-tooltip-when-elided="true" style="font-size: 20px; position: absolute; top: 20px;" />
+            <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="main-menu-button" class="button-style" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restart-button" class="button-style" />
             <ui:Button text="Quit" display-tooltip-when-elided="true" name="quit-button" class="button-style" />
         </ui:VisualElement>
     </ui:VisualElement>
